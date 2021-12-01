@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header .desktop {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  line-height: 1.6;
+  height: 85px;
+  margin-top: 34px;
+}
+header {
+  height: 85px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+
+.icon {
+  height: 16px;
+  width: auto;
+  margin-right: 30px;
+  position: relative;
+  top: 4px;
+}
+.desktop.logo {
+  float: left;
+  margin-left: 30px;
+}
+.desktop li {
+  display: inline-block;
+}
+.desktop ul {
+  position: fixed;
+  right: 0px;
+}
+
+#sign-up-cta {
+  background-color: #9DC20A;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  width: 600px;
+  text-align: center;
+}
+.header {
+  color: white;
+  font-size: 50px;
+  font-family: Rubik-Regular;
+  line-height: 1.4;
+  margin-top: 32px;
+}
+.email .cursive {
+  font-family: Rubik-Cursive;
+  margin-left: auto;
+  align-items: center;
+}
+.email span {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto-Regular, serif;
+  line-height: 1.4;
+  margin: 12px 80px 0px;
+  text-align: center;
+
+}
+.email .button {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto-Medium, serif;
+  line-height: 1.4;
+  width: 408px;
+  height: 64px;
+  background-color: #4A4A4A;
+  border-radius: 4px;
+  text-align: center;
+  margin: 26px auto 56px;
+  
+}
+#sign-up-section {
+  display: flex;
+  align-items: center;
+  background-image: url('resources/images/banner-landingpage.jpg');
+}
+
+@media
